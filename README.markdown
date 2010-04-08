@@ -1,7 +1,7 @@
 Color Scrub
 ===========
 A quick look at your palette  
-http://michaelmonteleone.net/colorscrub  
+[http://michaelmonteleone.net/colorscrub](http://michaelmonteleone.net/colorscrub)  
 
 A quick hack tool which shows a distinct set of all colors mentioned by a source text, whether they're in hex, rgb, or other formats.  Can accept raw text or a URL to a remote source like a CSS file (thanks to YQL).  
 
@@ -9,13 +9,13 @@ Examples
 --------
 
 **Accepting Raw Text**  
-http://michaelmonteleone.net/colorscrub  
+[http://michaelmonteleone.net/colorscrub](http://michaelmonteleone.net/colorscrub)  
 
 **Monokai Textmate Theme (Remote Source)**  
-http://michaelmonteleone.net/colorscrub/?q=http%3A%2F%2Fwww.monokai.nl%2Fblog%2Fwp-content%2Fasdev%2FMonokai.tmTheme
+[http://michaelmonteleone.net/colorscrub/?q=http%3A%2F%2Fwww.monokai.nl%2Fblog%2Fwp-content%2Fasdev%2FMonokai.tmTheme](http://michaelmonteleone.net/colorscrub/?q=http%3A%2F%2Fwww.monokai.nl%2Fblog%2Fwp-content%2Fasdev%2FMonokai.tmTheme)  
 
 **W3.org's CSS (Remote Source)**  
-http://michaelmonteleone.net/colorscrub/?q=http%3A%2F%2Fwww.w3.org%2F2008%2Fsite%2Fcss%2Fminimum
+[http://michaelmonteleone.net/colorscrub/?q=http%3A%2F%2Fwww.w3.org%2F2008%2Fsite%2Fcss%2Fminimum](http://michaelmonteleone.net/colorscrub/?q=http%3A%2F%2Fwww.w3.org%2F2008%2Fsite%2Fcss%2Fminimum)  
 
 License
 -------

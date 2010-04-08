@@ -20,6 +20,9 @@ jQuery(function($){
             scrubbedEvent = 'scrubbed',
             invalidUrl = 'invalidUrl',
             noSourceEvent = 'nosource';
+            
+        // decorate the source textbox with default text and auto-resizing abilities
+        sourceInput.flextarea().defaultText();
 
         // set up main ui event handlers to modify the page when things happen
         $(document)
@@ -114,10 +117,7 @@ jQuery(function($){
             processSource($.trim($(sourceInput).val()));
             return false;
         });    
-        
-        // decorate the source textbox with default text and auto-resizing abilities
-        sourceInput.defaultText().flextarea();  
-        
+                
         // if plugin asked to render an explicit source passed in via the rawSource option...
         if(!!settings.rawSource && settings.rawSource.length > 0) {
             // trigger the 'customText' event so that the defaultText plugin thinks it's been actually interacted with
